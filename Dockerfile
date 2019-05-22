@@ -1,4 +1,4 @@
-FROM golang:1.11.0-stretch
+FROM golang:1.12.0-stretch
 
 ENV SERVERLESS serverless@1.30.1
 ENV GOPATH /go

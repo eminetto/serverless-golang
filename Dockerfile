@@ -1,6 +1,6 @@
-FROM golang:1.12.0-stretch
+FROM golang:1.13-stretch
 
-ENV SERVERLESS serverless@1.30.1
+ENV SERVERLESS serverless
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/root/.yarn/bin:$PATH
 
